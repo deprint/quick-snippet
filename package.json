@@ -1,0 +1,28 @@
+{
+  "name": "quick-snippet",
+  "main": "./lib/quick-snippet",
+  "version": "0.0.0",
+  "description": "Add snippet from selection",
+  "keywords": [
+    "snippets"
+  ],
+  "activationCommands": {
+    "atom-text-editor": "quick-snippet:snippet"
+  },
+  "configSchema": {
+    "reversePrefix": {
+      "name": "Combine reverse selections as prefix",
+      "description": "Use reverse selections to define the prefix of your snippet",
+      "type": "boolean",
+      "default": "false"
+    }
+  },
+  "repository": "https://github.com/deprint/quick-snippet",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "season": "^5.2.0"
+  }
+}
